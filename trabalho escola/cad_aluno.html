@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="correto.css"> <!-- Vinculando o CSS -->
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Formulário de Cadastro de Aluno</h2>
+        <form name="formulario" method="POST" action="cad_aluno.php">
+            <div>
+                <label for="cod_aluno">Código do Aluno:</label>
+                <input type="text" name="cod_aluno" id="cod_aluno" size="5">
+            </div>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" size="50">
+            </div>
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="telefone" size="15">
+            </div>
+            <div>
+                <label for="cod_curso">Código do Curso:</label>
+                <input type="text" name="cod_curso" id="cod_curso" size="5">
+            </div>
+            <div class="form-buttons">
+                <input type="submit" name="Excluir" value="Excluir">
+                <input type="submit" name="Alterar" value="Alterar">
+                <input type="submit" name="Pesquisar" value="Pesquisar">
+                <input type="submit" name="Gravar" value="Gravar">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

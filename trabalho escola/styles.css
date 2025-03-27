@@ -1,0 +1,135 @@
+/* Estilo Geral para o Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para Cabeçalhos (h1 e h2) */
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para Containers do Formulário */
+.form-container, .menu-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilo para o Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para os Divs Dentro do Formulário */
+div {
+    margin-bottom: 15px;
+}
+
+/* Estilo para os Labels */
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para os Inputs de Texto e Senha */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo para os Botões de Submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* Efeito Hover para os Botões de Submit */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Efeito Active para os Botões de Submit */
+input[type="submit"]:active {
+    background-color: #398c36;
+}
+
+/* Estilo para os Itens do Menu */
+.menu-item {
+    margin-bottom: 15px;
+}
+
+/* Estilo para os Links */
+.menu-item a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Efeito Hover para os Links */
+.menu-item a:hover {
+    color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Efeito Active para os Links */
+.menu-item a:active {
+    color: #398c36;
+}
+
+/* Estilo para o Container do Menu */
+.menu-container {
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilo para o Cabeçalho */
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para as Mensagens de Sucesso ou Erro */
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.result {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
